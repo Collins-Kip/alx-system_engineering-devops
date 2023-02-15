@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 . ,[0-9]* ,[a-zA-Z]* | sed s:^.$:. , ..: | tr n , | sed s/,$/n/
